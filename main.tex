@@ -1,0 +1,47 @@
+\documentclass[preprint,12pt]{elsarticle}
+\usepackage{graphicx}
+\usepackage{caption}
+\graphicspath{{figures/}}
+\usepackage{amsmath}
+\numberwithin{equation}{section}
+\usepackage{float}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage{unicode-math}
+\usepackage{xeCJK}
+\setCJKmainfont{KaiTi}
+\setCJKmonofont{KaiTi}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    linkcolor=black,         
+    urlcolor=black,            
+    citecolor=black,          
+    allbordercolors={0 0 0},  
+    pdfborder={0 0 0}         
+}
+%opening
+\journal{}
+\begin{document}
+\tableofcontents
+	\begin{frontmatter}
+		\title{药娘的天空}
+		\author[label1]{乱世银娘}
+		\ead{https://www.weibo.com/p/1005055513855401} 
+	\address[label1]{https://www.weibo.com/p/1005055513855401} 
+\end{frontmatter}
+\input{./chapters/about.tex}
+\input{./chapters/foreword.tex}
+
+\bibliographystyle{unsrt}
+\bibliography{reference}
+\end{document}
